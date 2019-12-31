@@ -32,6 +32,7 @@ class Song
   end
 
   # returns a hash of genres and the number of songs that have those genres
+  # ex: => {"rap" => 5, "rock" => 1, "country" => 3}
   def self.genre_count
 
   end
