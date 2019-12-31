@@ -21,10 +21,10 @@ class Song
   end
 
   # # returns a unique array of artists of existing songs
-  # def artists
-  #
-  # end
-  #
+  def artists
+    
+  end
+
   # # returns an array of all of the genres of existing songs.
   # # This array should contain only unique genres––no duplicates!
   # def genres
