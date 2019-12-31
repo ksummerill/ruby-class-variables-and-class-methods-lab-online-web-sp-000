@@ -13,11 +13,11 @@ class Song
 
   # returns total number of songs created
   def count
-
+    Song.count
   end
 
   # returns an array of all of the genres of existing songs.
-  # This array should contain only unique genres––no duplicates! 
+  # This array should contain only unique genres––no duplicates!
   def genre
 
   end
