@@ -27,7 +27,7 @@ class Song
 
   # returns an array of all of the genres of existing songs.
   # This array should contain only unique genres––no duplicates!
-  def genres
+  def self.genres
     @@genres.uniq
   end
 
