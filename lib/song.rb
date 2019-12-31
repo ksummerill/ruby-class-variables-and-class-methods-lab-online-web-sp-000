@@ -16,8 +16,8 @@ class Song
   end
 
   # returns total number of songs created
-  def count
-    return Song.count
+  def self.count
+    @@count
   end
 
   # returns a unique array of artists of existing songs
