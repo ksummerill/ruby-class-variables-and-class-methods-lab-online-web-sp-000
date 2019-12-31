@@ -25,12 +25,12 @@ class Song
     @@artists.uniq
   end
 
-  # # returns an array of all of the genres of existing songs.
-  # # This array should contain only unique genres––no duplicates!
-  # def genres
-  #
-  # end
-  #
+  # returns an array of all of the genres of existing songs.
+  # This array should contain only unique genres––no duplicates!
+  def genres
+    @@genres.uniq
+  end
+
   # # returns a hash of genres and the number of songs that have those genres
   # def genre_count
   #
