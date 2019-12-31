@@ -11,4 +11,9 @@ class Song
     @@count += 1
   end
 
+  # returns total number of songs created
+  def count
+
+  end
+
 end
