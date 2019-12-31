@@ -22,7 +22,7 @@ class Song
 
   # returns a unique array of artists of existing songs
   def self.artists
-    @@artists
+    @@artists.uniq
   end
 
   # # returns an array of all of the genres of existing songs.
