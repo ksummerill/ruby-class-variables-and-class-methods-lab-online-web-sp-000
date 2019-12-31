@@ -31,11 +31,11 @@ class Song
     @@genres.uniq
   end
 
-  # # returns a hash of genres and the number of songs that have those genres
-  # def genre_count
-  #
-  # end
-  #
+  # returns a hash of genres and the number of songs that have those genres
+  def self.genre_count
+
+  end
+
   # # returns a hash of artists and the number of songs that have those artists
   # def artist_count
   #
