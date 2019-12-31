@@ -44,10 +44,10 @@ class Song
     genre_count
   end
 
-  # # returns a hash of artists and the number of songs that have those artists
-  # def artist_count
-  #
-  # end
+  # returns a hash of artists and the number of songs that have those artists
+  def artist_count
+    @@artists.inject(Hash.new(0)) { |total, i| total[i] += 1 ;total}
+  end
 
 
 end
