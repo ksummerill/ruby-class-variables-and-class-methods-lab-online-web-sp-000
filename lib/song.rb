@@ -16,4 +16,10 @@ class Song
 
   end
 
+  # returns an array of all of the genres of existing songs.
+  # This array should contain only unique genres––no duplicates! 
+  def genre
+
+  end
+
 end
