@@ -20,26 +20,26 @@ class Song
     Song.count
   end
 
-  # returns a unique array of artists of existing songs
-  def artists
-
-  end
-
-  # returns an array of all of the genres of existing songs.
-  # This array should contain only unique genres––no duplicates!
-  def genres
-
-  end
-
-  # returns a hash of genres and the number of songs that have those genres
-  def genre_count
-
-  end
-
-  # returns a hash of artists and the number of songs that have those artists
-  def artist_count
-
-  end
+  # # returns a unique array of artists of existing songs
+  # def artists
+  #
+  # end
+  #
+  # # returns an array of all of the genres of existing songs.
+  # # This array should contain only unique genres––no duplicates!
+  # def genres
+  #
+  # end
+  #
+  # # returns a hash of genres and the number of songs that have those genres
+  # def genre_count
+  #
+  # end
+  #
+  # # returns a hash of artists and the number of songs that have those artists
+  # def artist_count
+  #
+  # end
 
 
 end
