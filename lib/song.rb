@@ -34,8 +34,14 @@ class Song
   # returns a hash of genres and the number of songs that have those genres
   # ex: => {"rap" => 5, "rock" => 1, "country" => 3}
   def self.genre_count
-    h = Hash[@@genres.collect { |v| [k, (v)] }]
-
+    genre_count = {}
+    @@genres.each do |genre|
+      if genre_count[genre] 
+        genre_count[genre] += 1
+      else genre_count[genre] = 1
+      end  
+    end
+    genre_count
   end
 
   # # returns a hash of artists and the number of songs that have those artists
