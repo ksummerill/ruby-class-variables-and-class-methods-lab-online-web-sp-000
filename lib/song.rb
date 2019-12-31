@@ -21,8 +21,8 @@ class Song
   end
 
   # returns a unique array of artists of existing songs
-  def artists
-    Song.artists
+  def self.artists
+    @@artists
   end
 
   # # returns an array of all of the genres of existing songs.
