@@ -11,6 +11,7 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
+    @@genre << genre
   end
 
   # returns total number of songs created
