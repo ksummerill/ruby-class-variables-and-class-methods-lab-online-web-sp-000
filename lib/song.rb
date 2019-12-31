@@ -18,8 +18,8 @@ class Song
 
   # returns an array of all of the genres of existing songs.
   # This array should contain only unique genres––no duplicates!
-  def genre
-
-  end
+  # def genre
+  #
+  # end
 
 end
